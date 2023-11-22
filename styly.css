@@ -1,0 +1,478 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*......reusable........*/
+.row {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*logo*/
+
+header {
+	background: #F3F3F3 ;
+	padding-top: 10px;
+	width: 100%;
+	
+}
+
+.header-img img {
+	display: block;
+	width: 150px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+
+/*Navigace*/
+
+
+
+nav {
+	border-top: 1px solid #6888ED;
+	border-bottom: 2px solid #6888ED;
+	background: #d4d4d4;
+	margin: 0px auto;
+	/* padding-top: ;
+	padding-bottom: ; */
+	width: 100%;
+	padding: 15px;
+
+	
+	
+} 
+
+
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	align-items: center;
+	margin: 0 auto;
+
+	
+	} 
+
+nav ul li {
+	font-weight: bold;
+	list-style-type: none;
+	font-size: 15px;
+		
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	color: black;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	border-bottom: 3px solid black;
+	transition: border-bottom 0.5s;
+	
+	color: #3b71ca;
+	font-weight: bold;
+	
+}  
+
+
+
+/*  ========= mobile navigation ========= */
+
+
+.mobile-nav {
+	display: none;
+}
+
+.ms-auto {
+	color: white;
+}
+
+
+
+    /*-------slidesphoto mdb--------*/
+    
+
+
+
+.carousel-inner img {
+      width: 600px;
+	  height: 600px;
+
+
+}
+
+/*...........slide title............*/
+
+.carousel-caption h1 {
+	color: rgb(212, 204, 204);
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 35px;
+
+}
+
+.carousel-caption p {
+	color: black;
+	margin-bottom: 230px;
+	font-size: 25px;
+	font-weight: bold;
+	background: white;
+	
+}
+
+#main-container-imex {
+	font-family: "GT-Pressura", Sans-serif;
+
+}
+
+#main-container-imex h2 {
+	background: #6888ED;
+	color: white;
+	font-size: 35px;
+	margin: 0px auto;
+	padding: 17px 0px 15px 70px;
+	font-family: "GT-Pressura", Sans-serif;
+
+}
+
+/* ====== main ===== */
+
+main {
+	background: #F3F3F3;
+	padding-bottom: 80px;
+}
+
+
+/*................O nás............*/
+
+
+
+.main-title h2 {
+	text-align: center;
+    font-size: 25px;
+	font-weight: bold;
+	margin: 0 auto;
+	color: #3b71ca;
+	padding-top: 60px;
+	padding-bottom: 25px;
+	font-family: "GT-Pressura", Sans-serif;
+
+}
+
+
+.main-title h2:after {
+	content: "";
+    display: block;
+    width: 200px;
+	text-align: center;
+    border-bottom: 2px solid #3b71ca;
+	margin: 10px auto;
+}
+
+
+.card {
+	width: 300px;
+	margin-left: 50px;
+	margin-bottom: 60px;
+	
+	
+}
+
+.main-card {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+	font-family: "GT-Pressura", Sans-serif;
+	border-bottom: 1px solid grey;
+
+}
+
+.about-us {
+	text-align: center;
+	padding: 0 160px 35px 160px;
+	font-family: "GT-Pressura", Sans-serif;
+
+}
+
+.about-us-item h2 {
+	color: #3b71ca;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 30px 0px;
+	font-family: "GT-Pressura", Sans-serif;
+	
+}
+
+.about-us-item p {
+    margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: justify;
+	font-family: "GT-Pressura", Sans-serif;
+	
+}
+
+.form-title h2 {
+	text-align: center;
+	font-family: "GT-Pressura", Sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 15px;
+	color: #3b71ca;
+
+}
+
+/* ===== form ===== */
+
+.main-form {
+	border: 1px solid gray;
+	margin: 10px 70px 0px 70px;
+	padding: 20px 60px;
+	border-radius: 10px;
+}
+
+
+
+/* ===== ucetnictvi.html ======= */
+
+.container-maintittle {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("slidephoto/ucetni.jpeg");
+	background-size: cover;
+	color: white;
+	margin: 0px auto;
+	padding: 25px 0px;
+	text-align: center;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+.main-bookkeping {
+	padding: 20px 100px;
+}
+
+
+.title-bookkeping h2 {
+	color: #3b71ca;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px 0px;
+	font-family: Tahoma, sans-serif;
+}
+
+.text-bookkeping p {
+	color: #4f83d6;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+.bookkeping-img img {
+	width: 250px;
+	float: right;
+	margin-right: 50px;	
+}
+
+.second-text-bookkeping p {
+	margin-top: 40px;
+	padding: 0px 150px;
+	font-family: "GT-Pressura", Sans-serif;
+	font-size: 17px;
+	text-align: justify;
+}
+
+
+.second-title-bookkeping h3 {
+	text-align: center;
+	color: #4f83d6;
+	font-weight: bold;
+	font-family: "GT-Pressura", Sans-serif;
+	margin-top: 70px;
+}
+
+.second-title-bookkeping h3:after {
+	content: "";
+    display: block;
+    width: 200px;
+	text-align: center;
+    border-bottom: 1px solid #3b71ca;
+	margin: 15px auto;
+}
+
+.bookkeping-items {
+	
+	margin: 60px 130px 300px 130px;
+}
+
+.bookkeping-images img {
+	width: 500px;
+	float: right;
+	
+		
+}
+
+.accordion-button {
+	font-weight: bold;
+}
+
+.accordion {
+	padding: 0px 550px 0px 0px;
+}
+
+
+.third-title-bookkeping {
+	margin: 70px 0px 20px 0px;
+	
+} 
+
+.third-title-bookkeping h3 {
+	text-align: center;
+	color: #4f83d6;
+	font-weight: bold;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+
+.third-title-bookkeping h3:after {
+	content: "";
+    display: block;
+    width: 200px;
+	text-align: center;
+    border-bottom: 1px solid #3b71ca;
+	margin: 15px auto;
+}
+
+
+.third-text-bookkeping p {
+    margin-top: 40px;
+	padding: 0px 150px;
+	font-family: "GT-Pressura", Sans-serif;
+	font-size: 17px;
+	text-align: justify;
+}
+
+
+.fourth-title-bookkeping h3 {
+	text-align: center;
+	color: #4f83d6;
+	font-weight: bold;
+	font-family: "GT-Pressura", Sans-serif;
+	margin-top: 70px;
+}
+
+
+.fourth-title-bookkeping h3:after {
+	content: "";
+    display: block;
+    width: 200px;
+	text-align: center;
+    border-bottom: 1px solid #3b71ca;
+	margin: 15px auto;
+}
+
+.fourth-text-bookkeping p {
+    margin-top: 40px;
+	padding: 0px 150px;
+	font-family: "GT-Pressura", Sans-serif;
+	font-size: 17px;
+	text-align: justify;
+}
+
+
+.fifth-title-bookkeping p {
+	text-align: center;
+	color: #4f83d6;
+	font-weight: bold;
+	font-family: "GT-Pressura", Sans-serif;
+	font-size: 19px;
+	
+}
+
+/* === facility a správa budov a další záložky ===*/
+
+
+.container-maintittle-facility h1 {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("slidephoto/facility.jpg");
+	background-size: cover;
+	color: white;
+	margin: 0px auto;
+	padding: 25px 0px;
+	text-align: center;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+
+.facility-img img {
+	width: 180px;
+	float: right;
+	margin-right: 55px;	
+}
+
+/*  ===== služby ===== */
+
+
+.container-maintittle-law h1 {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("slidephoto/law.jpg");
+	background-size: cover;
+	color: white;
+	margin: 0px auto;
+	padding: 25px 0px;
+	text-align: center;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+
+.fifth-title-services {
+	margin-top: 400px;
+}
+
+.fifth-title-services p {
+	text-align: center;
+	color: #4f83d6;
+	font-weight: bold;
+	font-family: "GT-Pressura", Sans-serif;
+	font-size: 19px;
+
+	
+}
+
+
+/*.............kontakty............*/
+
+.contacts {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-family: "GT-Pressura", Sans-serif;
+}
+
+iframe {
+    width: 100%;
+   
+}
+
+.container-items-contacts h3 {
+	color: #6888ED;
+	padding-left: 350px;
+	margin: 0px auto;
+	font-size: 20px;
+}
+
+.container-items-contacts p {
+	padding-left: 350px;
+	font-size: 18px;
+	margin: 0px auto;
+}
+
+/* ===== patička ===== */
+
+footer {
+	background: #504D51;
+	color: #86868b;
+	padding: 20px 0px 20px 90px ;
+	margin: 0px auto;
+}
+

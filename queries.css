@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 1090px){
+
+   /* ==== images ===== */
+
+.bookkeping-images {
+    display: none;
+}
+
+
+/* ===== list ==== */
+
+.accordion {
+	padding: 0px 10px 0px 10px;
+}
+
+
+nav ul li a:hover,
+nav ul li a:active {
+	border-bottom: none;
+
+}
+
+nav {
+    display: none;
+}
+
+.mobile-nav {
+    display: inline-block;
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (max-width: 750px){
+
+   
+    .container-items-contacts h3 {
+       padding-left: 100px;
+        
+    }
+
+
+    .container-items-contacts p {
+        padding-left: 100px;
+        
+    }
+
+    
+
+ }
+
+
+ 
+@media only screen and (max-width: 1150px){
+
+    .form-outline {
+        display: block;
+    }
+
+ }

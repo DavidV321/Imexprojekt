@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styly.css">
+	<link rel="stylesheet" href="queries.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IMEX Projekt: Váš partner v bussines</title>
+	<link rel="icon" type="images/png" href="images/favicona.jpg">
+	<!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+	<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7KJXM0YZ1T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7KJXM0YZ1T');
+</script>
+
+</head>
+<body>
+	<header>
+		<div class="header-img">
+		<img src="images/imex-logo-black-white.png">
+	 </div>
+
+   
+		<nav>
+			
+			<ul>
+				<li><a href="index.html">ÚVOD</a></li>
+				<li><a href="ucetnictvi.html">ÚČETNICTVÍ</a></li>
+				<li><a href="facility.html">FACILITY</a></li>
+				<li><a href="sluzby.html">SLUŽBY</a></li>
+				<li><a href="reference.html">REFERENCE</a></li>
+				<li><a href="kontakty.html">KONTAKTY</a></li>
+			</ul>
+			<div class="clearfix"></div> 
+
+		</nav>
+
+		<!-- ========= mobile navigation =========== -->
+
+		<section class="mobile-nav">
+		  <nav class="navbar navbar-light" style="background-color: #d4d4d4 ;">
+			<div class="container-fluid">
+			  <button
+				class="navbar-toggler ms-auto"
+				type="button"
+				data-mdb-toggle="collapse"
+				data-mdb-target="#navbarToggleExternalContent3"
+				aria-controls="navbarToggleExternalContent3"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			  >
+				<i class="fas fa-bars"></i>
+			  </button>
+			</div>
+		  </nav>
+
+		  <div class="collapse" id="navbarToggleExternalContent3">
+			<div class="bg-dark shadow-3 p-4">
+			 <a href="Index.html"><button class="btn link-light btn-block border-bottom m-0">Úvod</button></a> 
+			 <a href="ucetnictvi.html"><button class="btn link-light btn-block border-bottom m-0">Účetnictví</button></a>
+			 <a href="facility.html"><button class="btn link-light btn-block border-bottom m-0">Facility</button></a>
+			 <a href="sluzby.html"><button class="btn link-light btn-block border-bottom m-0">Služby</button></a>
+			 <a href="reference.html"><button class="btn link-light btn-block border-bottom m-0">Reference</button></a>
+			 <a href="kontakty.html"><button class="btn link-light btn-block m-0">Kontakty</button></a>
+			
+			</div>
+		  </div>
+		</section>
+
+	</header>
+
+	<main>
+		<!--  =========== slide photo =========== -->
+		
+	<div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+		<div class="carousel-indicators">
+			<button
+					type="button"
+					data-mdb-target="#carouselExampleCaptions"
+					data-mdb-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"
+				  ></button>
+		<button
+					type="button"
+					data-mdb-target="#carouselExampleCaptions"
+					data-mdb-slide-to="1"
+					aria-label="Slide 2"
+				  ></button>
+		 <button
+					type="button"
+					data-mdb-target="#carouselExampleCaptions"
+					data-mdb-slide-to="2"
+					aria-label="Slide 3"
+				  ></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="slidephoto/ucetni.jpeg" class="d-block w-100" alt="ucetnictvi"/>
+					<div class="carousel-caption d-none d-md-block">
+					  <h1>VEDENÍ ÚČETNICTVÍ</h1>
+					  <p>Vedení účetnictví, mzdové a personální služby, daňové poradenství</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="slidephoto/facility4.jpg" class="d-block w-100" alt="facility"/>
+					<div class="carousel-caption d-none d-md-block">
+					  <h1>SPRÁVA BUDOV A NEMOVITOSTÍ</h1>
+					  <p>Administrativní a technická správa objektů, budov a nemovitostí</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="slidephoto/law.jpg" class="d-block w-100" alt="law"/>
+					<div class="carousel-caption d-none d-md-block">
+					  <h1>PRÁVNÍ A ADMINISTRATIVNÍ PORADENSTVÍ</h1>
+					  <p>Obchodněprávní poradenství, vnitřní podnikové předpisy, obchodní smlouvy</p>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+
+	 <section id="main-container-imex">
+			<h2>Věnujte se svému podnikání, to ostatní nechte na nás</h2>
+		</section> 
+
+		<div class="main-title">
+			<h2>VYBERTE SI SLUŽBU, O KTEROU MÁTE ZÁJEM</h2>
+		</div>
+
+	<div class="main-card">
+		<div class="card">
+			<img src="slidephoto/ucetni.jpeg" class="card-img-top" alt="Fissure in Sandstone"/>
+			<div class="card-body">
+			  <h5 class="card-title"><strong>VEDENÍ ÚČETNICTVÍ</strong></h5>
+			  <p class="card-text">Vedení účetnictví je nutnost pro každý podnik, který však může za Vás dělat někdo jiný. Nechte starost s účetnictvím zkušené firmě. </p>
+			  <a href="ucetnictvi.html" class="btn btn-primary">Účetnictví</a>
+			</div>
+		  </div>
+
+		  <div class="card">
+			<img src="slidephoto/facility2.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+			<div class="card-body">
+			  <h5 class="card-title"><strong>FACILITY SERVIS</strong></h5>
+			  <p class="card-text">Chcete kvalitní služby od jednoho dodavatele?
+				Komunikujte s jednou firmou a snižte své provozní náklady.
+				Mějte chod budovy pod kontrolou. </p>
+			  <a href="facility.html" class="btn btn-primary">Facility</a>
+			</div>
+		  </div>
+
+		  <div class="card">
+			<img src="slidephoto/law.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+			<div class="card-body">
+			  <h5 class="card-title"><strong>OSTATNÍ SLUŽBY</strong></h5>
+			  <p class="card-text">Chcete podnikat nebo již podnikáte, ale nemáte čas řešit administrativu spojenou s vedením podniku? Náš tým Vám pomůže s administrativou i právními věcmi.</p>
+			  <a href="sluzby.html" class="btn btn-primary">Služby</a>
+			</div>
+		  </div>
+		</div>
+		
+	<div class="main-title">
+		<h2>JSME SPOLEHLIVÝM PARTNEREM PRO VAŠE PODNIKÁNÍ</h2>
+	</div>
+
+<section class="about-us">
+  <div class="about-us-item">
+	<h2>O společnosti</h2>
+	 <p>Imex Projekt s.r.o. vznikl v roce 2010 jako poradenská firma v oblasti vedení účetnictví a poradenstvím v oblasti vedení firem, zejména pak na administrativní a ekonomicko-obchodní poradenství.</p>
+	 <p><strong>Zaměřujeme se zejména na komplexní služby pro podnikatele v oblasti účetnictví a auditu, facility servisu a v oblasti obchodněprávní.</strong></p>
+	 <p>Jsme ryze rodinná firma, která klade maximální důraz na spokojenost našich klientů. Nabízíme flexibilitu, otevřenost a zejména individuální přístup.</p>
+
+  </div>
+
+
+</section>
+
+<div class="form-title">
+	<h2>Kontaktujte nás</h2>
+</div>
+
+<section class="main-form">
+<form>
+	<!-- 2 column grid layout with text inputs for the first and last names -->
+	<!-- <div class="row mb-4">
+	  <div class="col">
+		<div class="form-outline">
+		  <input type="text" id="form6Example1" class="form-control" />
+		  <label class="form-label" for="form6Example1">Jméno</label>
+		</div>
+	  </div>
+	  <div class="col">
+		<div class="form-outline">
+		  <input type="text" id="form6Example2" class="form-control" />
+		  <label class="form-label" for="form6Example2">Příjmení</label>
+		</div>
+	  </div>
+	</div> -->
+  
+	
+		<!-- Text input -->
+		<div class="form-outline mb-4">
+			<input type="text" id="form6Example3" class="form-control" />
+			<label class="form-label" for="form6Example3">Jméno a příjmení</label>
+		  </div>
+	<!-- Text input -->
+	<div class="form-outline mb-4">
+	  <input type="text" id="form6Example3" class="form-control" />
+	  <label class="form-label" for="form6Example3">Název společnosti</label>
+	</div>
+  
+	<!-- Text input -->
+	<div class="form-outline mb-4">
+	  <input type="text" id="form6Example4" class="form-control" />
+	  <label class="form-label" for="form6Example4">Adresa</label>
+	</div>
+  
+	<!-- Email input -->
+	<div class="form-outline mb-4">
+	  <input type="email" id="form6Example5" class="form-control" />
+	  <label class="form-label" for="form6Example5">Email</label>
+	</div>
+  
+	<!-- Number input -->
+	<div class="form-outline mb-4">
+	  <input type="number" id="form6Example6" class="form-control" />
+	  <label class="form-label" for="form6Example6">Telefon</label>
+	</div>
+  
+	<!-- Message input -->
+	<div class="form-outline mb-4">
+	  <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+	  <label class="form-label" for="form6Example7">Zpráva</label>
+	</div>
+    
+	<!-- Submit button -->
+	<button type="submit" class="btn btn-primary btn-block mb-4">Odeslat</button>
+  </form>
+</section>
+	
+	</main>
+
+	
+
+	<footer>
+		 &copy; 2023  WebproDesign &copy; www.WebproDesign.cz
+	</footer>
+
+	<!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+</body>
+</html>
