@@ -5,12 +5,32 @@
     //napojeni dat ze stranky kde vytvarim dynamicky seznam stranek
     require "./seznam-stranek.php";
 
-    if (array_key_exists("id-stranky", $_GET)) {
-        $id_stranky = $_GET["id-stranky"];
-    }else {
-        $id_stranky = "uvod";
-    }
 
+
+    // if (array_key_exists("id-stranky", $_GET)) {
+    //     $id_stranky = $_GET["id-stranky"];
+    // }else {
+    //     $id_stranky = "uvod";
+    // }
+
+
+
+// Default language
+$default_lang = 'cs';
+
+// Zjištění aktuálního jazyka z query parametru 'lang'
+
+$lang = isset($_GET['lang']) ? $_GET['lang'] : $default_lang;
+
+// Pokud stránka není k dispozici v zvoleném jazyce, použije se výchozí jazyk
+if (!array_key_exists($lang, $texts)) {
+    $lang = $default_lang;
+}
+
+// Načtení stránky z vybraného jazyka
+$pole_stranek = $texts[$lang];
+
+// Následně můžu používat $pole_stranek k vypsání obsahu stránek a menu
 
 ?>
 
@@ -69,13 +89,17 @@
 			
 			<ul>
                 <!-- vlozeni dynamickeho menu-->
-                <?php
-                require "./menu.php";
-                ?>
+				<?php
+					require_once "./menu.php";
+				?>
 			</ul>
-			<div class="clearfix"></div> 
+		<div class="clearfix"></div> 
 
 		</nav>
+
+		<!-- prepinani mezi jazyky  -->
+		<a href="?lang=cs">Čeština</a>
+		<a href="?lang=en">English</a>
 
 		<!-- ========= mobile navigation =========== -->
 
